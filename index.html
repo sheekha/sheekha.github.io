@@ -72,18 +72,15 @@
         <!-- /.navbar-static-side -->
 
 		<!-- Modal -->
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal fade modal-wide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 							<h4 class="modal-title" id="myModalLabel">Resume</h4>
 						</div>
-						<div class="modal-body">
-							
-                            <iframe width="100%" height="550px" src="Sheekha_Khetan_Resume.pdf" class="container-fluid"></iframe>
-							
-							
+						<div class="modal-body">							
+                            <iframe width="100%" height="550px" src="Sheekha_Khetan_Resume.pdf" class="container-fluid"></iframe>						
 						</div>						
 					</div>
 					<!-- /.modal-content -->
@@ -130,7 +127,11 @@
 
     <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
     <script src="js/demo/dashboard-demo.js"></script>
-
+	<style>
+	.modal-wide .modal-dialog {
+  width: 80%; /* or whatever you wish */
+}
+	</style>
 </body>
 
 </html>
